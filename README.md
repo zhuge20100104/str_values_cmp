@@ -11,6 +11,13 @@ Provide the source xml file offered by developers, then the destination file, it
 python str_value_compare.py --source {Source CSV file} --source_col {Source Column Name} --dest {Dest Translation file} --dest_col {Dest Column Name}
 ```
 
+Assume that you have a source_value.csv file from Android Studio, a dest_values.csv file from the translation team, the source column in the source_value.csv is "en", the destination column in the dest_values.csv is "en(English)", you can run the script as belows to get the details of it.
+ 
+A typical usage as belows,
+```shell
+    python str_value_compare.py --source ./source_value.csv --source_col "en" --dest ./dest_values.csv --dest_col "en(English)"
+```
+
 Result is as belows,
 
 ![Run result](./imgs/run_result.png)
