@@ -1,0 +1,6 @@
+name,value_source,value_dest
+buttonExitNav,@string/mapControlInstructionExit,Exit Nav
+titleMapOptions,Settings,Options
+setting_destinationCard,Key Destination,Destination Card
+setting_moreSettings,More,More Settings
+setting_evSettings,Charging Preferences,EV Preferences 
