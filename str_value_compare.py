@@ -35,13 +35,11 @@ def parse_csv(dest_, dest_col):
 def compare(source_, dest_, dest_col):
     source_data_list = parse_xml(source_)
     
-    
     df_source = pd.DataFrame(data=source_data_list, columns=["name", "value_source"])
     df_dest  = parse_csv(dest_, dest_col)
-    
-    
     df_cmp = df_source.merge(df_dest, on="name", how="inner", left_index=False, right_index=False)
     print("total_len:" + str(len(df_cmp)))
+    # 多条件参考 https://blog.csdn.net/qq_38727626/article/details/100164430
     res_df = df_cmp[df_cmp["value_source"] != df_cmp["value_dest"]]
     
     if len(res_df) > 0:
