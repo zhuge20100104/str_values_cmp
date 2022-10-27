@@ -1,6 +1,49 @@
 name,value_source,value_dest
-buttonExitNav,@string/mapControlInstructionExit,Exit Nav
-titleMapOptions,Settings,Options
+Calculating,Calculating...,"""Calculating..."""
+TripAssistMessage,Smart Destination learns and predicts your favorite stops to help you get there faster without any typing. Manage Smart Destination in Options > Settings > Predictive Navigation.,Smart Destination learns and predicts your favorite stops to help you get there faster without any typing.\n\nManage Smart Destination in Options > Settings > Predictive Navigation.
+alertNoNetworkForFilterChargingNetworks,No network connection. Charging networks filter is not applied.,No network connection.\nCharging networks filter is not applied.
+buttonDoNotSaveRecordedRoute,Don't Save,Don\'t Save
+buttonExitNav,@ref/0x7f0f04f7,Exit Nav
+dialogRecordedSince,Recorded since: %1$s at %2$s,Recorded since:\n%1$s at %2$s
+downloadSizeVarDataRatesApply,The download size is approximately %1$sMB. Data rates and/or overage fees may apply.,The download size is approximately %1$sMB.\nData rates and/or overage fees may apply.
+emergencyVarsRouteViaVar,%1$s in %2$s on %3$s (from %4$s to %5$s) Reroute via %6$s.,%1$s in %2$s on %3$s (from %4$s to %5$s)\nReroute via %6$s.
+emergencyViaVarNoDirection,%1$s in %2$s on %3$s. Reroute via %4$s,%1$s in %2$s on %3$s.\nReroute via %4$s
+ftuePredictiveNavIntro,Predictive Navigation learns your preferences by remembering where you've been. It uses your location and navigation history to personalize routes and results. Learn more in the Privacy Statement.,Predictive Navigation learns your preferences by remembering where you\'ve been. It uses your location and navigation history to personalize routes and results. Learn more in the Privacy Statement.
+ftueSuperCruise,The world’s first true hands-free driver assistance feature for the freeway. Take advantage of Super Cruise when you see stretches of purple highway.,The world’s first true hands-free driver assistance feature for the freeway.\n\nTake advantage of Super Cruise when you see stretches of purple highway.
+incrPrepareFail,Could not update map. Please refer to the owner's portal website for more information. You can also contact customer support or your local dealer for help.,Could not update map. Please refer to the owner\'s portal website for more information. You can also contact customer support or your local dealer for help.
+listItemIndexFormat,%s.,%s. 
+navConnectPlanExpire,Your %1$s Connected Navigation Plan has expired. Please renew your plan through %1$s to update your map.,Your  %1$s Connected Navigation Plan has expired.\nPlease renew your plan through %1$s to update your map.
+navConnectServiceWillExpireOnVarRenew,Your Connected Navigation Plan will expire within %1$s days. Renew subscription?,Your Connected Navigation Plan will expire within %1$s days.\nRenew subscription?
+navFasterBubble,%1$s min Faster,%1$s min\nFaster
+navHiddenDestinationNotice,This location will not be shown again as a Smart Destination. You can't undo this action.,This location will not be shown again as a Smart Destination. You can\'t undo this action.
+navSlowerBubble,%1$s min Slower,%1$s min\nSlower
+navSwipeMinimizeCard,Swipe down to minimize card,Swipe down to minimize  card
+navTandCLocationBasedServiceMessage,Navigation requires your vehicle location. Use of navigation is subject to Telenav's end user license and Location-Based Services terms. Additional user terms may apply. Please accept the following to use Navigation:,Navigation requires your vehicle location. Use of navigation is subject to Telenav\'s end user license and Location-Based Services terms. Additional user terms may apply. Please accept the following to use Navigation:
+navToastNoFavoriteYet,You don't have any Favorites yet.,You don\'t have any Favorites yet.
+navToastNoRecentYet,You don't have any Recents yet.,You don\'t have any Recents yet.
+navYouveArrivedNotice,You've arrived,You\'ve arrived
+noMatchFoundForVar,"No matches found for ""%1$s"".","No matches found for \""%1$s\""."
+noSavedRouteYet,You haven't saved any routes yet.,You haven\'t saved any routes yet.
+popMessageEnableAutoLearning,Predictive Navigation learns your preferences by remembering where you've been. It uses your location and navigation history to personalize routes and results. Learn more in the Telenav Privacy Statement.,Predictive Navigation learns your preferences by remembering where you\'ve been. It uses your location and navigation history to personalize routes and results. Learn more in the Telenav Privacy Statement.
+recordRouteDistanceSave,%1$s/n %2$s at %3$s Distance: %4$s Do you want to save?,%1$s/n %2$s at %3$s\nDistance:  %4$s\nDo you want to save?
+renewSubscriptionWarning,"Without Connected Navigation service, you will lose Traffic, Smart Search/Routing, and Predictive Navigation capabilities. Renew subscription?","Without Connected Navigation service, you will lose Traffic, Smart Search/Routing, and Predictive Navigation capabilities.\nRenew subscription?"
+renewYourSubscriptionByCall,"Without Connected Navigation service, you will lose Traffic, Smart Search/Routing, and Predictive Navigation capabilities. Renew your subscription by calling an Advisor?","Without Connected Navigation service, you will lose Traffic, Smart Search/Routing, and Predictive Navigation capabilities.\nRenew your subscription by calling an Advisor?"
+rerouteViaVars,%1$s in %2$s on %3$s (to %4$s) Reroute via %5$s.,%1$s in %2$s on %3$s (to %4$s)\nReroute via %5$s.
+restartNavSystemNotice,"You must restart Nav before new subscription takes effect. Otherwise, subscription won't be available until the next time you start your engine.nRestart now?","You must restart Nav before new subscription takes effect. Otherwise,  subscription won\'t be available until the next time you start your engine.n\Restart now?"
+searchEmptyViewNotificationLine1,"No matches found for ""%1$s""","No matches found for \""%1$s\"""
 setting_destinationCard,Key Destination,Destination Card
-setting_moreSettings,More,More Settings
 setting_evSettings,Charging Preferences,EV Preferences 
+setting_moreSettings,More,More Settings
+significantTrafficDelayRerouteVars,"Significant traffic delay on usual route to %1$s. Reroute via %2$s, save %3$s min.","Significant traffic delay on usual route to %1$s.\nReroute via %2$s, save %3$s min."
+splashTip1,Caution: Do not input data or queries while driving.,<b>Caution:</b> Do not input data or queries while driving.
+tacFirstHint,Navigation requires your vehicle location. Use of navigation is subject to Telenav's end user license and a privacy statement. Additional user terms may apply. Please accept the following to use Navigation:,Navigation requires your vehicle location. Use of navigation is subject to Telenav\'s end user license and a privacy statement. Additional user terms may apply. Please accept the following to use Navigation:
+teamLeavedTeamSuccess,You've left %1$s,You\'ve left %1$s
+teamTravelJoinFail,Team doesn’t exist or wrong PIN code.,Team doesn\’t exist or wrong PIN code.
+teamTravelJoinSuccess,You've joined %1$s,"""You\'ve joined %1$s"""
+teamTravelMemberBeenRemovedMessage,You've been removed from %1$s,You\'ve been removed from %1$s
+titleMapOptions,Settings,Options
+toastNoDestination,You don't have any destinations yet.,You don\'t have any destinations yet.
+toastNoMatchesForAlongRoute,"No matches found for ""%1$s"" along route. Search Nearby for more results.","No matches found for \""%1$s\"" along route. Search Nearby for more results."
+toastNoMatchesForNearBy,"No matches found for ""%1$s"" nearby.","No matches found for \""%1$s\"" nearby."
+toastNoMatchesForNearDestination,"No matches found for ""%1$s"" near destination.","No matches found for \""%1$s\"" near destination."
+vrAlreadyInAvoidedRoute,You've already avoided %1$s.,You\'ve already avoided %1$s.
